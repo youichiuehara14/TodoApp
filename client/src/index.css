@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@layer utilities {
+  .shadow-neumorphism-inset {
+    border-radius: 32px;
+    background: #ffffff;
+    box-shadow: inset 5px 5px 10px #999999, inset -5px -5px 10px #ffffff;
+  }
+
+  .shadow-neumorphism {
+    border-radius: 66px;
+    background: linear-gradient(145deg, #d8d8d8, #ffffff);
+    box-shadow: 7px 7px 14px #9a9a9a, -7px -7px 14px #ffffff;
+  }
+
+  .shadow-neumorphism-white {
+    border-radius: 66px;
+    background: linear-gradient(145deg, #d8d8d8, #ffffff);
+    box-shadow: 20px 10px 40px #e0e0e0, -20px -20px 40px #ffffff;
+  }
+}
